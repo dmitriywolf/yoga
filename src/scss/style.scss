@@ -1,0 +1,15 @@
+@import "global/variables";
+
+/*Bootstrap*/
+@import "../../node_modules/bootstrap/scss/bootstrap-reboot";
+@import "../../node_modules/bootstrap/scss/bootstrap-grid";
+
+/*Global*/
+@import "global/fonts";
+@import "global/main";
+
+
+/*Blocks*/
+@import "blocks/header";
+
+@import "blocks/intro";

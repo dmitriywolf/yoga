@@ -1,0 +1,25 @@
+// Grid breakpoints
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 1000px,
+        xl: 1100px
+);
+
+
+// Grid containers
+$container-max-widths: (
+        sm: 540px,
+        md: 720px,
+        lg: 960px,
+        xl: 960px
+);
+
+$grid-gutter-width: 20px;
+
+
+$main-font: 'Muller', sans-serif;
+$text-color: #000000;
+$bg-color: #f8f2e4;
+$theme-color: #e28234;

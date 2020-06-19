@@ -1,0 +1,53 @@
+.intro {
+  height: 100vh;
+  padding: 100px 0;
+  background-color: $bg-color;
+  background-image: url(../img/intro/bg-intro.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  .container {
+    height: 100%;
+  }
+}
+
+.intro__inner {
+  height: 100%;
+
+  color: #ffffff;
+}
+
+.intro__title {
+  font-size: 60px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.intro__subtitle {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.intro__text {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.intro__button {
+  width: 100%;
+  max-width: 300px;
+
+  font-family: $main-font;
+  font-size: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 3.11;
+  text-align: center;
+  color: #ffffff;
+
+
+  background-color: transparent;
+  border: 2px solid #ffffff;
+}

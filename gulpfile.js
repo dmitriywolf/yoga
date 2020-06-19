@@ -22,7 +22,7 @@ function layoutHTML() {
 
 //Styles
 function style() {
-    return gulp.src('./src/sass/style.scss')
+    return gulp.src('./src/scss/style.scss')
     //Компиляция SCSS to CSS
         .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
         //Растановка префиксов
@@ -48,13 +48,13 @@ let jsFiles = [
     './src/js/index.js'
 ];
 
-function script() {
-    return gulp.src(jsFiles)
-    //Обьединение в один файл
-        .pipe(concat('index.js'))
-        .pipe(gulp.dest('./dist/js/'))
-        .pipe(browserSync.reload({stream: true}))
-}
+// function script() {
+//     return gulp.src(jsFiles)
+//     //Обьединение в один файл
+//         .pipe(concat('index.js'))
+//         .pipe(gulp.dest('./dist/js/'))
+//         .pipe(browserSync.reload({stream: true}))
+// }
 
 //Просматривать файлы
 function watch() {
@@ -65,8 +65,9 @@ function watch() {
     });
 
     gulp.watch('./src/*.html', layoutHTML);
-    gulp.watch('./src/sass/**/*.scss', style);
-    gulp.watch('./src/js/*.js', script);
+    gulp.watch('./src/scss/**/*.scss', style);
+    gulp.watch('./src/img/**/*.*', copyImg)
+    //gulp.watch('./src/js/*.js', script);
 }
 
 function copyImg() {
@@ -84,7 +85,7 @@ function clean() {
 }
 
 //Таск для удаления файлов в папке build и запуск style и script
-gulp.task('build', gulp.series(clean, gulp.parallel(layoutHTML, style, script, copyImg, copyFonts)));
+gulp.task('build', gulp.series(clean, gulp.parallel(layoutHTML, style, copyImg, copyFonts)));
 
 //Таск запускает таск build и watch последовательно
 gulp.task('default', gulp.series('build', watch));
