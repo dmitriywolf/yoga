@@ -1,0 +1,35 @@
+.section {
+    padding: 70px 0;
+}
+
+.section__header {
+    text-align: center;
+}
+
+
+.section--bg {
+    background-color: $theme-color;
+}
+
+.section__title {
+    position: relative;
+    
+    font-family: $main-font;
+    font-weight: 500;
+    font-size: 36px;
+
+    color: #000000;
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 70px;
+        left: calc(50% - 59px);
+
+        width: 118px;
+        height: 6px;
+
+        background-image: url('../img/after__title.png');
+        background-repeat: no-repeat; 
+    }
+}
