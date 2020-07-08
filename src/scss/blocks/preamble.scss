@@ -11,16 +11,57 @@
 
 
 .preamble__title {
-    max-width: 266px;
-    margin: 45px auto 30px 30px;
+    max-width: 285px;
+    margin: 42px auto 30px 30px;
 
-    font-size: 48px;
-    font-weight: 500;
+    line-height: 1.2;
 
+    &--small {
+        font-size: 30px;
+    }
+
+    &--big {
+        font-size: 48px;
+        font-weight: 500;
+        text-transform: uppercase;
+
+    }
+
+}
+
+.preamble__text  {
+    padding-left: 30px;
+    padding-bottom: 35px;
+
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.preamble__list {
+    padding-left: 30px;
+    margin: 0;
+    list-style: none;
+}
+
+.preamble__item {
+    margin-bottom: 26px;
+    padding: 5px 0 5px 50px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1;
     text-transform: uppercase;
 
-    span {
-        font-size: 30px;
-        text-transform: initial;
+    &--yoga {
+        background: url("../img/preamble/icon-1.png") no-repeat;
     }
+
+    &--sea {
+        background: url("../img/preamble/icon-2.png") no-repeat;
+    }
+
+    &--travel {
+        background: url("../img/preamble/icon-3.png") no-repeat;  
+    }
+
+
 }
