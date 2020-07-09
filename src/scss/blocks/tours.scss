@@ -1,0 +1,33 @@
+.tours {
+    width: 100%;
+    max-width: 820px;
+    margin: 0 auto;
+}
+
+.tours__list {
+    padding: 30px 50px;
+    margin: 0;
+    background-color: #fff;
+}    
+
+.tours__text {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 2.28;
+
+    b {
+        font-weight: 700;
+    }
+}
+
+.tours__price {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 2.28;
+    color: #dd490f;
+
+    b {
+        font-weight: 700;
+    }
+}
+
