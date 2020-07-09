@@ -1,0 +1,29 @@
+.review__author-avatar  {
+    padding-right: 0;
+}
+
+.review__content {
+    padding-left: 40px;
+}
+
+.review__author-name {
+    font-size: 18px;
+    font-weight: 400;
+
+    b {
+        font-weight: 700;
+    }
+}
+
+.review__author-social {
+    font-size: 12px;
+    font-weight: 300;
+    color: #c94410;
+    text-decoration: underline;
+}
+
+.review__text {
+    font-size: 14px;
+    font-style: italic;
+    color: #393939;
+}
