@@ -4,14 +4,34 @@
 
 
 .instructor__description {
-
-
     position: absolute;
     bottom: 0;
-
     width: 100%;
     margin: 0;
+    padding: 40px 60px 50px;
+    color: #ffffff;
+    background-color: rgba(68,68,68, 0.5); 
+}
 
-    background-color: #444444;
-    opacity: 0.5;
+.instructor__info {
+    min-width: 295px;
+    padding-right: 50px;
+    border-right: 2px solid #ffffff;
+}
+
+.instructor__name {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.instructor__specialization {
+    p {
+        font-size: 16px;
+        font-style: initial;
+    }
+}
+
+.instructor__occupation {
+    padding-left: 46px;
+    font-size: 14px;
 }
