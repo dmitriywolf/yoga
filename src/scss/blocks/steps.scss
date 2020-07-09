@@ -1,0 +1,28 @@
+.steps__item  {
+    position: relative;
+
+    &::after {
+        content: url("../img/steps/arrow-icon.png");
+        position: absolute;
+
+        top: 40px;
+        right: -10px;
+    }   
+
+}
+
+.steps__text {
+    padding-top: 20px;
+
+    font-size: 12px;
+    color: #3f3f3f;
+
+    text-align: center;
+}
+
+.steps__link {
+    
+    font-size: 12px;
+    text-decoration: underline;
+    color: #ea7231;
+}
