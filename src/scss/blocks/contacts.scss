@@ -7,6 +7,25 @@
 }
 
 .contacts__title {
+    padding-bottom: 15px;
     font-size: 22px;
     font-weight: 500;
+}
+
+.contacts__subtitle {
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.contatcs__text {
+    font-size: 12px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.contacts__phone {
+    font-size: 28px;
+    font-weight: 700;
+    color: #000000;
 }
