@@ -1,0 +1,35 @@
+.footer {
+    background-color: #383838;
+}
+
+.footer__inner {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 12px 0;
+
+    color: #ffffff;
+}
+
+.footer__logo {
+    margin-right: 40px;
+
+    img {
+        min-width: 50px;
+    }
+}
+
+.footer__text {
+    font-size: 12px;
+}
+
+.footer__link {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.footer__info {
+    max-width: 400px;
+    padding-right: 20px;
+    margin-left: auto;
+}
