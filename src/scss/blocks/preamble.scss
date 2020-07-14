@@ -1,67 +1,163 @@
 .preamble__wrapper {
-    padding: 50px 0;
+  padding: 50px 0;
 }
 
 .preamble__img-wrapper {
-    text-align: right;
-     img {
-         margin-right: 45px;
-     }
-}
+  text-align: right;
 
+  img {
+    margin-right: 45px;
+  }
+}
 
 .preamble__title {
-    max-width: 285px;
-    margin: 42px auto 30px 30px;
+  max-width: 285px;
+  margin: 42px auto 30px 30px;
+  line-height: 1.2;
 
-    line-height: 1.2;
+  &--small {
+    font-size: 30px;
+  }
 
-    &--small {
-        font-size: 30px;
-    }
-
-    &--big {
-        font-size: 48px;
-        font-weight: 500;
-        text-transform: uppercase;
-
-    }
+  &--big {
+    font-size: 48px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
 
 }
 
-.preamble__text  {
-    padding-left: 30px;
-    padding-bottom: 35px;
+.preamble__text {
+  padding-left: 30px;
+  padding-bottom: 35px;
 
-    font-size: 16px;
-    font-weight: 400;
+  font-size: 16px;
 }
 
 .preamble__list {
-    padding-left: 30px;
-    margin: 0;
-    list-style: none;
+  padding-left: 30px;
+  margin: 0;
+  list-style: none;
+
+  .preamble__item:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .preamble__item {
-    margin-bottom: 26px;
-    padding: 5px 0 5px 50px;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1;
-    text-transform: uppercase;
+  margin-bottom: 26px;
+  padding: 5px 0 5px 50px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1;
+  text-transform: uppercase;
 
-    &--yoga {
-        background: url("../img/preamble/icon-1.png") no-repeat;
+  &--yoga {
+    background: url("../img/preamble/icon-1.png") no-repeat;
+  }
+
+  &--sea {
+    background: url("../img/preamble/icon-2.png") no-repeat;
+  }
+
+  &--travel {
+    background: url("../img/preamble/icon-3.png") no-repeat;
+  }
+
+}
+
+
+@media (max-width: 999.99px) {
+  .preamble__img-wrapper {
+    img {
+      margin-right: 0;
+    }
+  }
+
+  .preamble__title {
+    max-width: 100%;
+    margin: 0 auto 15px 0;
+
+    &--small {
+      font-size: 26px;
     }
 
-    &--sea {
-        background: url("../img/preamble/icon-2.png") no-repeat;
+    &--big {
+      font-size: 34px;
     }
 
-    &--travel {
-        background: url("../img/preamble/icon-3.png") no-repeat;  
+  }
+
+  .preamble__text {
+    padding-left: 0;
+    padding-bottom: 15px;
+  }
+
+  .preamble__list {
+    padding-left: 0;
+  }
+
+  .preamble__item {
+    margin-bottom: 15px;
+    padding: 5px 0 5px 40px;
+    font-size: 17px;
+  }
+
+}
+
+@media (max-width: 767.99px) {
+  .preamble__img-wrapper {
+    text-align: center;
+
+    img {
+      margin-right: 0;
+      max-width: 300px;
+    }
+  }
+
+  .preamble__title {
+    max-width: 100%;
+    margin: 20px 0 10px;
+    text-align: center;
+
+    &--small {
+      font-size: 24px;
     }
 
+    &--big {
+      font-size: 30px;
+    }
+
+  }
+
+  .preamble__text {
+    padding: 0 0 15px;
+    text-align: center;
+  }
+
+  .preamble__list {
+    padding-left: 0;
+  }
+
+  .preamble__item {
+    margin-bottom: 0;
+  }
+
+}
+
+@media (max-width: 575.99px) {
+  .preamble__title {
+    &--small {
+      font-size: 22px;
+    }
+
+    &--big {
+      font-size: 28px;
+    }
+  }
+
+  .preamble__item {
+    margin-bottom: 10px;
+  }
 
 }
