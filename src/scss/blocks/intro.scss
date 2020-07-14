@@ -1,6 +1,6 @@
 .intro {
   height: 100vh;
-  min-height: 600px;
+  min-height: 568px;
   padding: 142px 0 40px;
   background-color: $bg-color;
   background-image: url(../img/intro/bg-intro.jpg);
@@ -41,7 +41,6 @@
 .intro__button {
   width: 100%;
   max-width: 300px;
-
   font-family: $main-font;
   font-size: 18px;
   font-weight: normal;
@@ -49,7 +48,6 @@
   line-height: 3.11;
   text-align: center;
   color: #ffffff;
-
   background-color: transparent;
   border: 2px solid #ffffff;
   transition: all 0.3s linear;
@@ -61,4 +59,63 @@
 
 .intro__social {
   margin-top: auto;
+}
+
+@media (max-width: 999.99px) {
+  .intro {
+    padding: 110px 0 40px;
+  }
+
+  .intro__title {
+    padding: 100px 0 20px;
+    font-size: 44px;
+  }
+
+  .intro__subtitle {
+    font-size: 18px;
+  }
+
+  .intro__text {
+    padding-bottom: 60px;
+    font-size: 15px;
+  }
+
+  .intro__button {
+    max-width: 260px;
+    font-size: 16px;
+  }
+
+}
+
+@media (max-width: 767.99px) {
+  .intro {
+    padding: 92px 0 40px;
+  }
+
+  .intro__title {
+    padding: 120px 0 20px;
+    font-size: 36px;
+  }
+
+  .intro__text {
+    padding-bottom: 80px;
+  }
+
+}
+
+@media (max-width: 575.99px) {
+  .intro__title {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .intro__subtitle {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .intro__button {
+    line-height: 2.6;
+  }
+
 }
