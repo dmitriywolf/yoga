@@ -1,0 +1,13 @@
+.instructors__list {
+  margin-bottom: 20px;
+}
+
+.instructors__list:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 575px) {
+  .instructors__list {
+    margin-bottom: 10px;
+  }
+}
