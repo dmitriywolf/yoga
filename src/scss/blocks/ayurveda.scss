@@ -1,7 +1,21 @@
 .ayurveda__text {
-    padding-bottom: 28px;
-    font-size: 18px;
-    font-weight: 400;
-
-    text-align: center;
+  padding-bottom: 28px;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
 }
+
+@media (max-width: 999px) {
+  .ayurveda__text {
+    padding-bottom: 20px;
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 767px) {
+  .ayurveda__text {
+    padding-bottom: 15px;
+    font-size: 16px;
+  }
+}
+
