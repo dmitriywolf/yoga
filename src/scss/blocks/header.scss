@@ -2,6 +2,31 @@
   position: absolute;
   top: 0;
   left: 0;
-
   width: 100%;
+}
+
+.header__inner {
+  padding: 19px 0;
+}
+
+.header__tel {
+  text-align: right;
+  color: #ffffff;
+}
+
+.header__text {
+  font-size: 14px;
+  line-height: 1.28
+}
+
+.header__phone {
+  font-size: 20px;
+  color: #ffffff;
+  transition: all 0.3s linear;
+
+  &:hover {
+    color: $theme-color;
+    text-decoration: none;
+  }
+  
 }

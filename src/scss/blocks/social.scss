@@ -26,6 +26,11 @@
         height: 26px;
         border: 1px solid #ffffff;
         border-radius: 50%;
+        transition: all 0.3s linear;
+
+        &:hover {
+            border-color: #ffa55f;
+        }
     }
 
     .social__icon {
