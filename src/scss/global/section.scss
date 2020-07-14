@@ -1,45 +1,119 @@
 .section {
-    padding: 70px 0;
+  padding: 70px 0;
+
+  &--bg {
+    background-color: $bg-color;
+  }
 }
 
 .section__header {
-    margin-bottom: 80px;;
-    text-align: center;
-}
-
-
-.section--bg {
-    background-color: $bg-color;
+  margin-bottom: 80px;;
+  text-align: center;
 }
 
 .section__title {
-    position: relative;
-    
-    font-family: $main-font;
-    font-weight: 500;
-    font-size: 36px;
+  position: relative;
+  font-family: $main-font;
+  font-weight: 500;
+  font-size: 36px;
+  color: #000000;
 
-    color: #000000;
+  &::after {
+    content: "";
+    position: absolute;
+    top: 70px;
+    left: calc(50% - 59px);
 
-    &::after {
-        content: "";
-        position: absolute;
-        top: 70px;
-        left: calc(50% - 59px);
+    width: 118px;
+    height: 6px;
 
-        width: 118px;
-        height: 6px;
-
-        background-image: url('../img/after__title.png');
-        background-repeat: no-repeat; 
-    }
+    background-image: url('../img/after__title.png');
+    background-repeat: no-repeat;
+  }
 }
 
 .section__subtitle {
+  padding-top: 60px;
+  color: #3f3f3f;
+
+  font-weight: 400;
+  font-style: italic;
+  font-size: 18px;
+}
+
+
+@media (max-width: 999px) {
+  .section {
+    padding: 65px 0;
+  }
+
+  .section__header {
+    margin-bottom: 70px;
+  }
+
+  .section__title {
+    font-size: 32px;
+
+    &::after {
+      top: 60px;
+    }
+  }
+
+  .section__subtitle {
     padding-top: 60px;
     color: #3f3f3f;
-    
-    font-weight: 400; 
+    font-weight: 400;
     font-style: italic;
     font-size: 18px;
+  }
+
 }
+
+
+@media (max-width: 767px) {
+  .section {
+    padding: 55px 0;
+  }
+
+  .section__subtitle {
+    padding-top: 60px;
+    color: #3f3f3f;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 575px) {
+  .section {
+    padding: 50px 0;
+  }
+
+  .section__header {
+    margin-bottom: 35px;
+  }
+
+  .section__title {
+    padding-bottom: 25px;
+    font-size: 26px;
+    line-height: 1.2;
+
+
+    &::after {
+      top: auto;
+      bottom: 0;
+    }
+  }
+
+  .section__subtitle {
+    padding-top: 60px;
+    color: #3f3f3f;
+
+    font-weight: 400;
+    font-style: italic;
+    font-size: 18px;
+  }
+
+}
+
+
