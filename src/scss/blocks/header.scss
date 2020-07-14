@@ -30,3 +30,51 @@
   }
   
 }
+
+@media (max-width: 999.99px) {
+  .header__inner {
+    padding: 12px 0;
+  }
+
+  .header__logo {
+    width: 65px;
+  }
+
+  .header__text {
+    font-size: 12px;
+    line-height: 1.2
+  }
+  
+  .header__phone {
+    font-size: 17px;
+  }
+
+}
+
+
+@media (max-width: 767.99px) {
+  .header__inner {
+    padding: 10px 0;
+  }
+
+  .header__logo {
+    width: 55px;
+  }
+
+  .header__text {
+    font-size: 11px;
+  }
+  
+  .header__phone {
+    font-size: 16px;
+  }
+
+}
+
+@media (max-width: 575.99px) {
+
+}
+
+
+
+
