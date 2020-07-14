@@ -1,29 +1,65 @@
-.review__author-avatar  {
-    padding-right: 0;
+.review__author-avatar {
+  padding-right: 0;
 }
 
 .review__content {
-    padding-left: 40px;
+  padding-left: 40px;
 }
 
 .review__author-name {
-    font-size: 18px;
-    font-weight: 400;
+  font-size: 18px;
+  font-weight: 400;
 
-    b {
-        font-weight: 700;
-    }
+  b {
+    font-weight: 700;
+  }
 }
 
 .review__author-social {
-    font-size: 12px;
-    font-weight: 300;
-    color: #c94410;
-    text-decoration: underline;
+  font-size: 12px;
+  font-weight: 300;
+  color: #c94410;
+  text-decoration: underline;
 }
 
 .review__text {
-    font-size: 14px;
-    font-style: italic;
-    color: #393939;
+  font-size: 14px;
+  font-style: italic;
+  color: #393939;
+}
+
+@media (max-width: 999px) {
+  .review__content {
+    padding-left: 15px;
+  }
+
+  .review__author-name {
+    font-size: 17px;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .review__author-avatar {
+    text-align: center;
+  }
+
+  .review__content {
+    padding-left: 10px;
+  }
+
+  .review__author-name {
+    padding-top: 10px;
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .review__author-social {
+    display: block;
+    text-align: center;
+  }
+
+  .review__text {
+    text-align: center;
+  }
 }
