@@ -1,4 +1,18 @@
 .guarantee__title {
-    padding-top: 10px;
-    font-size: 14px;
+  padding-top: 10px;
+  font-size: 14px;
+}
+
+@media (max-width: 999px) {
+  .guarantee__title {
+    text-align: center;
+  }
+}
+
+@media (max-width: 575px) {
+  .guarantee:nth-child(1),
+  .guarantee:nth-child(2) {
+    margin-bottom: 15px;
+  }
+
 }
