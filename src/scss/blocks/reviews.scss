@@ -33,6 +33,7 @@
 
 .reviews__arrow:hover {
   transform: scale(1.1);
+  cursor: pointer;
 }
 
 .reviews__dot {
@@ -41,6 +42,10 @@
   margin: 0 6px;
   background-color: #b4b4b4;
   border-radius: 50%;
+
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .reviews__dot--active {
