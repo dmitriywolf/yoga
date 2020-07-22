@@ -1,58 +1,40 @@
 @import "global/variables";
-
 /*Bootstrap*/
 @import "../../node_modules/bootstrap/scss/bootstrap-reboot";
 @import "../../node_modules/bootstrap/scss/bootstrap-grid";
-
 /*Global*/
 @import "global/fonts";
 @import "global/main";
 @import "global/section";
 @import "global/button.scss";
-
-
 /*Blocks*/
 @import "blocks/header";
-
 @import "blocks/intro";
-
 @import "blocks/reasons";
-
 @import "blocks/features";
-
 @import "blocks/preamble";
-
 @import "blocks/schedule";
-
 @import "blocks/ayurveda";
 @import "blocks/ayurveda-program";
 @import "blocks/ayurveda-center";
-
-
 @import "blocks/instructors";
 @import "blocks/instructor";
-
 @import "blocks/reviews";
 @import "blocks/review";
-
 @import "blocks/advantages";
 @import "blocks/advantage";
-
 @import "blocks/steps";
-
-
 @import "blocks/cost";
 @import "blocks/tours";
 @import "blocks/special-offer";
-
 @import "blocks/guarantees";
 @import "blocks/guarantee";
-
 @import "blocks/contacts.scss";
 @import "blocks/address.scss";
-
 @import "blocks/footer";
-
 @import "blocks/social";
+
+
+@import "blocks/pageup";
 
 
