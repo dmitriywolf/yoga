@@ -7,6 +7,7 @@
 @import "global/main";
 @import "global/section";
 @import "global/button.scss";
+@import "global/animate";
 /*Blocks*/
 @import "blocks/header";
 @import "blocks/intro";
@@ -36,5 +37,6 @@
 
 
 @import "blocks/pageup";
+@import "blocks/popup";
 
 
