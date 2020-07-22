@@ -8,6 +8,8 @@ let concat = require('gulp-concat');
 
 let rename = require('gulp-rename');
 let cleanCSS = require('gulp-clean-css');
+
+let uglifyES = require('gulp-uglify-es').default; //Минификация JS (ES5+)
 let browserSync = require('browser-sync').create();
 let del = require('del');
 
@@ -52,7 +54,7 @@ function style() {
 function script() {
     return gulp.src('./src/js/main.js')
         .pipe(concat('index.min.js'))
-        //.pipe(uglifyES())
+        .pipe(uglifyES())
         .pipe(gulp.dest('./dist/js/'))
         .pipe(browserSync.reload({stream: true}))
 }
