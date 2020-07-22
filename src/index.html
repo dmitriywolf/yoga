@@ -121,7 +121,7 @@
                 <h2 class="intro__subtitle">океан / йога / путешествия / аюрведа</h2>
                 <p class="intro__text">Индия, штат Керала, побережье океана</p>
 
-                <button class="intro__button">Подать заявку</button>
+                <button class="intro__button button--request">Подать заявку</button>
 
                 <div class="intro__social social__list d-flex justify-content-between">
                     <a href="#" class="social__item d-flex justify-content-center align-items-center">
@@ -276,7 +276,7 @@
             <div class="section__header">
                 <h2 class="section__title">Расписание йога-туров</h2>
             </div> <!--/.section__header-->
-            <div class="schedule">
+            <div class="schedule" id="scheduler">
                 <div class="schedule__list row d-flex justify-content-center">
                     <div class="col-sm-6 col-md-4 col-lg-3">
                         <div class="schedule__item d-flex flex-column align-items-center">
@@ -291,7 +291,7 @@
                             <span class="schedule__date">20-30 октября</span>
                             <h3 class="schedule__title"> "Разслабон" </h3>
                             <a href="#" class="schedule__read-more">Читать подробнее</a>
-                            <button class="schedule__button button">Оставить заявку</button>
+                            <button class="schedule__button button button--request">Оставить заявку</button>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
@@ -299,7 +299,7 @@
                             <span class="schedule__date">3-17 ноября</span>
                             <h3 class="schedule__title"> "Вернуться к форме" </h3>
                             <a href="#" class="schedule__read-more">Читать подробнее</a>
-                            <button class="schedule__button button">Оставить заявку</button>
+                            <button class="schedule__button button button--request">Оставить заявку</button>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
@@ -307,7 +307,7 @@
                             <span class="schedule__date">3-14 марта</span>
                             <h3 class="schedule__title"> "Снижение веса" </h3>
                             <a href="#" class="schedule__read-more">Читать подробнее</a>
-                            <button class="schedule__button button">Оставить заявку</button>
+                            <button class="schedule__button button button--request">Оставить заявку</button>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
@@ -315,7 +315,7 @@
                             <span class="schedule__date">20-30 апреля</span>
                             <h3 class="schedule__title"> "Набор массы" </h3>
                             <a href="#" class="schedule__read-more">Читать подробнее</a>
-                            <button class="schedule__button button">Оставить заявку</button>
+                            <button class="schedule__button button button--request">Оставить заявку</button>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
@@ -323,7 +323,7 @@
                             <span class="schedule__date">6-19 июля</span>
                             <h3 class="schedule__title"> "Наберем форму" </h3>
                             <a href="#" class="schedule__read-more">Читать подробнее</a>
-                            <button class="schedule__button button">Оставить заявку</button>
+                            <button class="schedule__button button button--request">Оставить заявку</button>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
@@ -331,7 +331,7 @@
                             <span class="schedule__date">10-24 августа</span>
                             <h3 class="schedule__title"> "Прокачай спину" </h3>
                             <a href="#" class="schedule__read-more">Читать подробнее</a>
-                            <button class="schedule__button button">Оставить заявку</button>
+                            <button class="schedule__button button button--request">Оставить заявку</button>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
@@ -339,7 +339,7 @@
                             <span class="schedule__date">9-26 сентября</span>
                             <h3 class="schedule__title"> "Согнись, Давай!" </h3>
                             <a href="#" class="schedule__read-more">Читать подробнее</a>
-                            <button class="schedule__button button">Оставить заявку</button>
+                            <button class="schedule__button button button--request">Оставить заявку</button>
                         </div>
                     </div>
                 </div> <!--/.schedule__list-->
@@ -736,7 +736,7 @@
                 <div class="steps__item col-6 col-sm-4 col-lg-2 d-flex flex-column align-items-center">
                     <img src="img/steps/item-1.png" alt="Оставите заявку">
                     <p class="steps__text">Вы оставляете заявку</p>
-                    <a href="" class="steps__link">Вы оставляете заявку</a>
+                    <a href="" class="steps__link button--request">Вы оставляете заявку</a>
                 </div>
                 <div class="steps__item col-6 col-sm-4 col-lg-2 d-flex flex-column align-items-center">
                     <img src="img/steps/item-2.png" alt="Связь">
@@ -787,7 +787,7 @@
                 </ul>  <!-- /.tours__list -->
                 <div class="tours__offer special-offer d-flex flex-column align-items-center  flex-sm-row justify-content-sm-between align-content-sm-center">
                     <p class="special-offer__text">Узнайте о спецпредложении эконом-тур за 250 евро</p>
-                    <button class="special-offer__button button">Узнать</button>
+                    <button class="special-offer__button button button--request">Узнать</button>
                 </div> <!-- /.tours__offer .special-offer -->
             </div>  <!-- /.tours -->
             <div class="cost">
@@ -932,7 +932,7 @@
 </footer> <!-- /.footer -->
 
 <!--Modal Popup-->
-<div class="popup__wrapper popup--callback animated fadeIn">
+<div class="popup__wrapper popup--request animated fadeIn">
     <div class="popup animated bounceIn">
         <div class="popup__close"></div> <!--/.popup__close-->
         <div class="popup__form">
