@@ -158,6 +158,17 @@ document.addEventListener('DOMContentLoaded', () => {
     };
     scrolling();
 
+    /* Reviews */
+    const carousel = () => {
 
+        const configReviews = {
+            type: 'carousel',
+            startAt: 0,
+            perView: 1,
+        };
+
+        new Glide('.glide-reviews', configReviews).mount();
+    };
+    carousel();
 
 });

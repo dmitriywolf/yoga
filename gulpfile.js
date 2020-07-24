@@ -44,12 +44,12 @@ function style() {
 }
 
 //Scripts
-// function scriptLib() {
-//     return gulp.src('./node_modules/@glidejs/glide/dist/glide.min.js')
-//         .pipe(concat('lib.min.js'))
-//         .pipe(gulp.dest('./dist/js/'))
-//         .pipe(browserSync.reload({stream: true}))
-// }
+function scriptLib() {
+    return gulp.src('./node_modules/@glidejs/glide/dist/glide.min.js')
+        .pipe(concat('lib.min.js'))
+        .pipe(gulp.dest('./dist/js/'))
+        .pipe(browserSync.reload({stream: true}))
+}
 
 function script() {
     return gulp.src('./src/js/main.js')
@@ -88,7 +88,7 @@ function clean() {
 }
 
 //Таск для удаления файлов в папке build и запуск style и script
-gulp.task('build', gulp.series(clean, gulp.parallel(layoutHTML, style, script, copyImg, copyFonts)));
+gulp.task('build', gulp.series(clean, gulp.parallel(layoutHTML, style, script, scriptLib, copyImg, copyFonts)));
 
 //Таск запускает таск build и watch последовательно
 gulp.task('default', gulp.series('build', watch));

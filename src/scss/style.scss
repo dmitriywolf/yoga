@@ -2,6 +2,8 @@
 /*Bootstrap*/
 @import "../../node_modules/bootstrap/scss/bootstrap-reboot";
 @import "../../node_modules/bootstrap/scss/bootstrap-grid";
+/*Glide*/
+@import "../../node_modules/@glidejs/glide/src/assets/sass/glide.core";
 /*Global*/
 @import "global/fonts";
 @import "global/main";
@@ -34,8 +36,6 @@
 @import "blocks/address.scss";
 @import "blocks/footer";
 @import "blocks/social";
-
-
 @import "blocks/pageup";
 @import "blocks/popup";
 
