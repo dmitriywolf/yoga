@@ -14,10 +14,7 @@
 
 ### 4. ESLint
 	Линтер ESLint
-	
-### 5. Webpack
-    Модули собраны на Webpack + Babel
 
-### 6. Плагины:
+### 5. Плагины:
 	
 1. Слайдер-Карусель: [Glide.js](https://glidejs.com/).
