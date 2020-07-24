@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Вспомогательные переменные для кроссбраузерности
         const element = document.documentElement;
-        const { body } = document;
+        const {body} = document;
 
         // Якоря
         const anchors = document.querySelectorAll('[href^="#"]');
@@ -158,17 +158,20 @@ document.addEventListener('DOMContentLoaded', () => {
     };
     scrolling();
 
-    /* Reviews */
+    /* Carousel */
     const carousel = () => {
 
-        const configReviews = {
+        const configCarousel = {
             type: 'carousel',
             startAt: 0,
             perView: 1,
         };
 
-        new Glide('.glide-reviews', configReviews).mount();
+        new Glide('.glide-reviews', configCarousel).mount();
+        new Glide('.glide-instructors--first', configCarousel).mount();
+        new Glide('.glide-instructors--second', configCarousel).mount();
     };
+
     carousel();
 
 });
