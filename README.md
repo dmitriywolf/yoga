@@ -12,12 +12,9 @@
 ### 3. Gulp 4
 	Собран на Gulp 4.
 
-### 4. ESLint
-	Линтер ESLint
-
-### 5. Webpack + Babel
+### 4. Webpack + Babel
 	Для сборки модулей использован webpack.
 
-### 6. Плагины:
+### 5. Плагины:
 	
-1. Слайдер-Карусель: [Glide.js](https://glidejs.com/).
+	1. Слайдер-Карусель: [Glide.js](https://glidejs.com/).
