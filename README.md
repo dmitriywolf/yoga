@@ -17,4 +17,4 @@
 
 ### 5. Плагины:
 	
-	1. Слайдер-Карусель: [Glide.js](https://glidejs.com/index.html)
+	1. Слайдер-Карусель: Glide.js
