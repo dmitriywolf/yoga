@@ -1,5 +1,5 @@
 # Yoga
-- Вёрстка Landing Page: [Йога-Туры в Индию](https://dmitriywolf.github.io/works/yoga/).
+- Вёрстка Landing Page: [Йога-Туры в Индию](https://dmitriywolf.github.io/works/yoga/)
 
 Описание 
 
@@ -17,4 +17,4 @@
 
 ### 5. Плагины:
 	
-	1. Слайдер-Карусель: [Glide.js](https://glidejs.com/).
+	1. Слайдер-Карусель: [Glide.js](https://glidejs.com/)
