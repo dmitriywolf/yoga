@@ -1,5 +1,4 @@
 .idea/
 _psd/
-dist/
 node_modules
 package-lock.json
