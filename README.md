@@ -1,8 +1,5 @@
 # Yoga
-- Вёрстка Landing Page: [Йога-Туры в Индию](https://dmitriywolf.github.io/yoga/dist/)
-
 Описание 
-
 ### 1. SASS
 	Стили написаны на препроцессоре Sass(SCSS).
 
